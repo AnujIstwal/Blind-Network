@@ -3,7 +3,7 @@ import React from "react";
 const services = [
     {
         title: "AI Tools Manufacturing",
-        image: "",
+        image: "ai_tools.png",
         modules: [
             "Automation Systems",
             "AI Model Deployment",
@@ -13,7 +13,7 @@ const services = [
     },
     {
         title: "AI Certification Course",
-        image: "ai.jpg",
+        image: "ai.png",
         modules: [
             "ML & DL Basics",
             "Projects with TensorFlow",
@@ -23,7 +23,7 @@ const services = [
     },
     {
         title: "STEM",
-        image: "stem.jpg",
+        image: "stem.png",
         modules: [
             "Science Experiments",
             "Coding with Python",
@@ -33,13 +33,13 @@ const services = [
     },
     {
         title: "Robotics",
-        image: "robotics.jpg",
+        image: "robotics.png",
         modules: ["Robot Design", "Arduino & Sensors", "AI for Robotics"],
         desc: "Design, build, and program robots while learning control systems, sensors, and AI integration.",
     },
     {
         title: "Aerolabs",
-        image: "aero.jpg",
+        image: "aero.png",
         modules: ["Flight Mechanics", "Drone Tech", "Aerodynamic Simulation"],
         desc: "Explore future-ready aeronautics concepts and experiments in a creative, lab-style environment.",
     },
