@@ -44,6 +44,7 @@ const Hero = () => {
                             Join Us
                         </a>
                     </div>
+                    <img src="hero.png" />
                 </div>
             </div>
         </section>
