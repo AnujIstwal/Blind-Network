@@ -11,7 +11,7 @@ const About = () => {
     return (
         <section
             id="about"
-            className="bg-white py-16 px-6 md:px-20 scroll-mt-24"
+            className="bg-white py-16 px-6 md:px-20 scroll-mt-8"
         >
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
                 {/* Image */}
