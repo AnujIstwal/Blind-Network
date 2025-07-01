@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
     return (
-        <footer className="bg-white border-t border-gray-200 text-gray-700 text-sm pt-10 pb-6 px-6 md:px-20">
+        <footer className="bg-zinc-950 border-t border-gray-200 text-gray-500 text-sm pt-10 pb-6 px-6 md:px-20">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
                 {/* Left: Logo & Description */}
                 <div className="space-y-4">
@@ -63,7 +63,7 @@ const Footer = () => {
 
                 {/* Middle: Course Links */}
                 <div>
-                    <h3 className="font-semibold text-gray-800 mb-2">
+                    <h3 className="font-semibold text-gray-400 mb-2">
                         Our Courses
                     </h3>
                     <ul className="space-y-1">
@@ -78,10 +78,9 @@ const Footer = () => {
                 {/* Right: Contact Info */}
                 <div>
                     <p>
-                        <span className="font-medium">
+                        <span className="font-semibold text-gray-400 mb-2">
                             Corporate Office Address
                         </span>
-                        <br />
                         Gate No.1230, SH.No.1, 2, 3 & 4,
                         <br />
                         Ground Floor, Near Hiras Nagar
@@ -93,10 +92,14 @@ const Footer = () => {
                         Maharashtra, India.
                     </p>
                     <p className="mt-2">
-                        <span className="font-medium">Our Voice:</span> +91
-                        91308 54236, +91 7823812240
+                        <span className="font-semibold text-gray-400">
+                            Our Voice:
+                        </span>{" "}
+                        +91 91308 54236, +91 7823812240
                         <br />
-                        <span className="font-medium">Email ID:</span>{" "}
+                        <span className="font-semibold text-gray-400">
+                            Email ID:
+                        </span>{" "}
                         schoolforall@outlook.com
                     </p>
                 </div>

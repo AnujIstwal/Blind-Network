@@ -55,8 +55,8 @@ const services = [
 const Services = () => {
     return (
         <section
-            id="#services"
-            className="scroll-mt-8 bg-white py-16 px-6 md:px-20"
+            id="services"
+            className="scroll-mt-8  bg-gray-100 py-16 px-6 md:px-20"
         >
             <div className="max-w-7xl mx-auto">
                 <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">

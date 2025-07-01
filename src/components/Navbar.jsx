@@ -34,11 +34,11 @@ const Navbar = () => {
                 {/* Menu */}
                 <nav className="hidden md:flex  justify-center items-center gap-8 text-gray-700 font-medium">
                     <Link
-                        to="#home"
+                        to="home"
                         spy={true}
                         smooth={true}
                         offset={-84}
-                        duration={500}
+                        duration={1000}
                         activeClass="font-bold border-b-2 border-purple-600"
                         className="cursor-pointer transition-all duration-200"
                     >
@@ -46,33 +46,37 @@ const Navbar = () => {
                     </Link>
 
                     <Link
-                        to="#about"
+                        to="about"
                         spy={true}
                         smooth={true}
                         offset={-84}
-                        duration={500}
+                        duration={1000}
                         activeClass=" font-bold border-b-2 border-purple-600"
                         className="cursor-pointer transition-all duration-200"
                     >
                         About Us
                     </Link>
                     <Link
-                        to="#services"
+                        to="services"
                         spy={true}
                         smooth={true}
                         offset={-84}
-                        duration={500}
+                        duration={1000}
                         activeClass=" font-bold border-b-2 border-purple-600"
                         className="cursor-pointer transition-all duration-200"
                     >
                         Services
                     </Link>
-                    <a
-                        href="#contact"
+                    <Link
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={-84}
+                        duration={1000}
                         className="text-purple-600 transition rounded-full border-2 border-purple-600 px-4 py-2 font-semibold hover:bg-purple-100 "
                     >
                         Contact Us
-                    </a>
+                    </Link>
                 </nav>
 
                 {/* mobile devices */}
