@@ -5,8 +5,25 @@ const Navbar = () => {
         <header className="bg-white/80  sticky top-0 z-50  backdrop-blur-3xl ">
             <div className="max-w-7xl mx-auto px-6 md:px-20 py-4 flex justify-between items-center">
                 {/* Logo */}
-                <div className="text-2xl font-extrabold text-purple-600">
-                    Blindnetwork
+                <div className="flex flex-col leading-tight">
+                    <div className="flex items-center gap-2">
+                        <span className="text-2xl font-extrabold text-purple-600">
+                            Blind
+                        </span>
+                        <span className="text-xl font-extrabold text-white bg-gray-700 px-1 rounded">
+                            Network
+                        </span>
+                    </div>
+                    <a
+                        href="https://schoolforall.co"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-500 hover:text-purple-600 transition"
+                    >
+                        <span className="text-xs text-gray-500 tracking-wide mt-1">
+                            by SchoolForAll
+                        </span>
+                    </a>
                 </div>
 
                 {/* Menu */}

@@ -15,7 +15,7 @@ const About = () => {
         >
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
                 {/* Image */}
-                <div className="md:w-1/2">
+                <div className="md:w-1/2 w-[55%]">
                     <img
                         src="ceo.png"
                         alt="Founder and CEO"
@@ -25,10 +25,10 @@ const About = () => {
 
                 {/* Text Content */}
                 <div className="md:w-1/2 text-center md:text-left space-y-5">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
+                    <h2 className="text-3xl  md:text-4xl font-bold text-gray-800">
                         About Us
                     </h2>
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-gray-600 text-justify leading-relaxed">
                         Blindnetwork is dedicated to reshaping the future of
                         education by integrating AI, STEM, Robotics, and
                         Aeronautics into practical, engaging learning
@@ -39,7 +39,13 @@ const About = () => {
                         <p className="text-lg font-semibold text-purple-700">
                             Dr. Surojit Saha
                         </p>
-                        <p className="text-sm text-gray-500 italic">
+                        <p className="text-sm text-gray-500 font-medium">
+                            CEO,{" "}
+                            <span className="text-gray-500">
+                                SchoolForAll.co
+                            </span>
+                        </p>
+                        <p className="text-[.92rem] text-gray-500 italic mt-1">
                             “Our mission is to bridge imagination and innovation
                             — starting from the classroom.”
                         </p>

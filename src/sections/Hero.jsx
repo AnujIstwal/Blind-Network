@@ -1,5 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
+import { FaArrowCircleDown } from "react-icons/fa";
 
 const Hero = () => {
     return (
@@ -7,9 +8,9 @@ const Hero = () => {
             <div className="max-w-7xl mx-auto flex  items-center justify-center">
                 {/* Text Content */}
                 <div className="md:w-1/2 text-center  space-y-6">
-                    <h1 className="text-4xl md:text-5xl font-[600] leading-tight">
+                    <h1 className="text-4xl md:text-5xl font-bold leading-tight">
                         Unlock the Future of <br />
-                        <span className="text-purple-600 font-bold">
+                        <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent font-bold ">
                             <Typewriter
                                 words={[
                                     "Tech Education",
@@ -33,9 +34,10 @@ const Hero = () => {
                     <div className="flex flex-col md:flex-row gap-4 justify-center ">
                         <a
                             href="#services"
-                            className="bg-purple-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-purple-700 transition"
+                            className="bg-gray-700 text-white px-6 py-3 rounded-full group font-semibold hover:bg-gray-800 transition"
                         >
                             Explore Services
+                            <FaArrowCircleDown className="inline ml-2 rotate-220 group-hover:rotate-275 transition" />
                         </a>
                         <a
                             href="#contact"
