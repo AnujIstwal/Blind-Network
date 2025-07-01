@@ -4,7 +4,7 @@ import { HiMail, HiPhone } from "react-icons/hi";
 const Contact = () => {
     return (
         <section
-            id="contact"
+            id="#contact"
             className="scroll-mt-8 bg-purple-50 py-16 px-6 md:px-20"
         >
             <div className="max-w-4xl mx-auto">

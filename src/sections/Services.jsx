@@ -55,7 +55,7 @@ const services = [
 const Services = () => {
     return (
         <section
-            id="services"
+            id="#services"
             className="scroll-mt-8 bg-white py-16 px-6 md:px-20"
         >
             <div className="max-w-7xl mx-auto">

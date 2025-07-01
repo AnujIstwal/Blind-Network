@@ -4,7 +4,10 @@ import { FaArrowCircleDown } from "react-icons/fa";
 
 const Hero = () => {
     return (
-        <section className="bg-[#F9F6FF] py-16 px-6 md:px-20 text-gray-800 mx-4 md:mx-8 rounded-4xl border border-purple-100">
+        <section
+            id="#home"
+            className="bg-[#F9F6FF] py-16 px-6 md:px-20 text-gray-800 mx-4 md:mx-8 rounded-4xl border border-purple-100"
+        >
             <div className="max-w-7xl mx-auto flex  items-center justify-center">
                 {/* Text Content */}
                 <div className="md:w-1/2 text-center  space-y-6">
