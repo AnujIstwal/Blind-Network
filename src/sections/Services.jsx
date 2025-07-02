@@ -4,6 +4,20 @@ import { IoMdTrendingUp } from "react-icons/io";
 
 const services = [
     {
+        title: "Robotics",
+        image: "robotics.jpg",
+        rating: 5.0,
+        modules: ["Robot Design", "Arduino & Sensors", "AI for Robotics"],
+        desc: "Design, build, and program robots while learning control systems, sensors, and AI integration.",
+    },
+    {
+        title: "Aerolabs",
+        image: "aero.jpg",
+        rating: 5.0,
+        modules: ["Flight Mechanics", "Drone Tech", "Aerodynamic Simulation"],
+        desc: "Explore future-ready aeronautics concepts and experiments in a creative, lab-style environment.",
+    },
+    {
         title: "AI Tools Manufacturing",
         image: "ai_tools.jpg",
         rating: 5.0,
@@ -36,19 +50,63 @@ const services = [
         ],
         desc: "Engage in multidisciplinary learning covering science, technology, engineering, and mathematics.",
     },
+
     {
-        title: "Robotics",
-        image: "robotics.jpg",
-        rating: 4.3,
-        modules: ["Robot Design", "Arduino & Sensors", "AI for Robotics"],
-        desc: "Design, build, and program robots while learning control systems, sensors, and AI integration.",
+        title: "Automation Testing - Selenium",
+        image: "selenium.jpg",
+        rating: 4.6,
+        modules: ["Selenium WebDriver", "TestNG & JUnit", "CI/CD Integration"],
+        desc: "Master web automation testing using Selenium and build robust testing pipelines for real-world projects.",
     },
     {
-        title: "Aerolabs",
-        image: "aero.jpg",
-        rating: 4.3,
-        modules: ["Flight Mechanics", "Drone Tech", "Aerodynamic Simulation"],
-        desc: "Explore future-ready aeronautics concepts and experiments in a creative, lab-style environment.",
+        title: "Robotic Process Automation",
+        image: "rpa.jpg",
+        rating: 4.4,
+        modules: ["UiPath Basics", "Automating Workflows", "Bot Deployment"],
+        desc: "Automate repetitive tasks and processes using RPA tools like UiPath and enhance workplace efficiency.",
+    },
+    {
+        title: "AI and ML Advanced",
+        image: "ai_ml.jpg",
+        rating: 4.7,
+        modules: ["Advanced ML Algorithms", "NLP & CV", "Real-World Use Cases"],
+        desc: "Deep dive into advanced AI/ML topics with practical implementation of NLP, computer vision, and more.",
+    },
+    {
+        title: "Blockchain Essentials",
+        image: "blockchain.jpg",
+        rating: 4.5,
+        modules: ["Smart Contracts", "Ethereum Basics", "Decentralized Apps"],
+        desc: "Understand blockchain fundamentals, smart contract development, and how DApps are reshaping industries.",
+    },
+    {
+        title: "AWS Certification Prep",
+        image: "aws.jpg",
+        rating: 4.8,
+        modules: [
+            "EC2, S3 & Lambda",
+            "Networking & IAM",
+            "Mock Certification Tests",
+        ],
+        desc: "Prepare for AWS Solutions Architect exam with comprehensive cloud training, labs, and certification tips.",
+    },
+    {
+        title: "DevOps",
+        image: "dev_ops.jpg",
+        rating: 4.6,
+        modules: [
+            "CI/CD Pipelines",
+            "Docker & Kubernetes",
+            "Monitoring & Deployment",
+        ],
+        desc: "Master DevOps principles to automate development lifecycles with tools like Docker, Jenkins, and Kubernetes.",
+    },
+    {
+        title: "Cloud Computing",
+        image: "cloud.jpg",
+        rating: 4.7,
+        modules: ["Cloud Models", "Virtualization", "Cloud Security"],
+        desc: "Explore cloud infrastructure, deployment models, and services across AWS, Azure, and Google Cloud platforms.",
     },
 ];
 
@@ -60,7 +118,10 @@ const Services = () => {
         >
             <div className="max-w-7xl mx-auto">
                 <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
-                    Our Courses
+                    <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent">
+                        Our
+                    </span>{" "}
+                    Courses
                 </h2>
 
                 <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

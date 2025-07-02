@@ -6,6 +6,7 @@ import Services from "./sections/Services";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
 import Loader from "./components/Loader";
+import Chatbot from "./components/Chatbot";
 
 // List of critical images to preload
 const imageUrls = [
@@ -14,9 +15,20 @@ const imageUrls = [
     "stem.jpg",
     "robotics.jpg",
     "aero.jpg",
-    "logo.jpg",
+    "selenium.jpg",
+    "rpa.jpg",
+    "dev_ops.jpg",
+    "cloud.jpg",
+    "blockchain.jpg",
+    "aws.jpg",
+    "ai_ml.jpg",
+    "logo.png",
+    "sfa_logo.jpg",
     "ceo.png",
     "bg-overlay.jpg",
+    "bg-overlay3.jpg",
+    "bot.svg",
+    "contact_us_bg.jpg",
 ];
 
 function App() {
@@ -57,6 +69,7 @@ function App() {
             <About />
             <Services />
             <Contact />
+            <Chatbot />
             <Footer />
         </>
     );

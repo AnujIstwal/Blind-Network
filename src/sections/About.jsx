@@ -26,14 +26,25 @@ const About = () => {
                 {/* Text Content */}
                 <div className="md:w-1/2 text-center md:text-left space-y-5">
                     <h2 className="text-3xl  md:text-4xl font-bold text-gray-800">
-                        About Us
+                        About{" "}
+                        <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent">
+                            Us
+                        </span>
                     </h2>
                     <p className="text-gray-600 text-justify leading-relaxed">
-                        Blindnetwork is dedicated to reshaping the future of
-                        education by integrating AI, STEM, Robotics, and
-                        Aeronautics into practical, engaging learning
-                        experiences. We empower learners with real-world skills
-                        and futuristic tools.
+                        Blindnetwork is a next-gen tech-skilling initiative by{" "}
+                        <a
+                            href="https://www.schoolforall.co/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-purple-600 hover:text-purple-500 font-semibold transition duration-200 hover:underline"
+                        >
+                            SchoolForAll.co
+                        </a>
+                        , it is dedicated to reshaping the future of education
+                        by integrating AI, STEM, Robotics, and Aeronautics into
+                        practical, engaging learning experiences. We empower
+                        learners with real-world skills and futuristic tools.
                     </p>
                     <div className="pt-4 border-t border-gray-300">
                         <p className="text-lg font-semibold text-purple-700">
@@ -57,29 +68,33 @@ const About = () => {
                             href="https://twitter.com/SchoolforallOrg?t=WUoy8M6wIoAmSiMlZSj-ag&s=08"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="text-blue-400 hover:text-blue-300 transition transform hover:scale-125"
                         >
-                            <FaTwitter className="text-gray-600 text-xl hover:text-purple-800 transition" />
+                            <FaTwitter size={20} />
                         </a>
                         <a
                             href="https://www.instagram.com/schoolforall_sfa?igsh=aW91enZvbm9wZDAx"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="text-pink-400 hover:text-pink-300 transition transform hover:scale-125"
                         >
-                            <FaInstagram className="text-gray-600 text-xl hover:text-purple-800 transition" />
+                            <FaInstagram size={20} />
                         </a>
                         <a
                             href="https://t.me/SchoolForAllOrg"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="text-sky-400 hover:text-sky-300 transition transform hover:scale-125"
                         >
-                            <FaTelegramPlane className="text-gray-600 text-xl hover:text-purple-800 transition" />
+                            <FaTelegramPlane size={20} />
                         </a>
                         <a
                             href="https://www.facebook.com/people/Surojit-Saha/pfbid0mjA3eyBewFzeweDtAN6aQUYzSQsTNwvtg7zKupmvSXpAf3fT1di9osCj7MzQjJnl/?mibextid=eHce3h"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className="text-indigo-400 hover:text-indigo-300 transition transform hover:scale-125"
                         >
-                            <FaFacebookF className="text-gray-600 text-xl hover:text-purple-800 transition" />
+                            <FaFacebookF size={20} />
                         </a>
                     </div>
                 </div>
